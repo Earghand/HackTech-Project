@@ -58,7 +58,7 @@ body {
   bottom: 4%;
   background-color:rgba(0, 0, 0, 0.85);
   z-index:9999;
-  color:white;
+  color:black;
 }
 
 .locations {
@@ -70,5 +70,5 @@ body {
   bottom:4%;
   background-color:rgba(0, 0, 0, 0.85);
   z-index:9999;
-  color:white;
+  color:black;
 }
