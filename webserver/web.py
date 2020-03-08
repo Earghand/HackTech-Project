@@ -79,7 +79,7 @@ def mapview():
             #zoom = 12,
         )
 
-        locations_template = "<div class='location-element'> <b>{name}</b><br><b>Rating: </b>{rating}/5<br>{address}</div>"
+        locations_template = "<div class='location-element'> <p><b>{name}</b></p><br><p><b>Rating: </b>{rating}/5</p><br><p>{address}</p></div>"
         location_html = ""
 
         for i in (morning, afternoon, evening):
