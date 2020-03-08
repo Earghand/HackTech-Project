@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #9FE3D2;
+}
+
+.search {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 1%;
+	color: grey;
+	font-size: 150%;
+	transition: 0.4s;
+	line-height: 5%;
+	width: 90%;
+	font-weight: bold;
+}
+.search-bar {
+	position: absolute;
+  margin-top: 1.5%;
+  margin-left: 3%;
+ 	background: Ivory;
+ 	height: 6%;
+  width: 56%;
+ 	border-radius: 40px;
+ 	padding: 1%;
+}
+
+.search-btn {
+	color: grey;
+ 	float: right;
+ 	width: 5%;
+ 	height: 95%;
+ 	border-radius: 50%;
+ 	background: Ivory;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	color: grey;
+ 	cursor: pointer;
+}
+
+.search-btn > i {
+	font-size: 150%;
+}
+
+.maps {
+  position:absolute;
+  border-radius: 3%;
+  top: 10%;
+  left: 2%;
+  right: 12.5%;
+  bottom: 4%;
+  z-index:999;
+  color:black;
+  padding-bottom: 5%;
+  margin-right: 10%;
+}
+
+.locations {
+  position:absolute;
+  border-radius: 5%;
+  top: 5%;
+  left:64%;
+  right: 3%;
+  bottom:4%;
+  z-index:9999;
+  color:black;
+}
