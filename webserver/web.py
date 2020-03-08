@@ -101,5 +101,9 @@ def mapview():
 def credits():
     return "made by elias sean han and vivian"
 
+@app.route("/<anything>")
+def whats_up(anything):
+    return "whats up " + anything
+
 if __name__ == "__main__":
     app.run(debug=True)
