@@ -22,10 +22,10 @@ body {
 }
 .search-bar {
 	position: absolute;
-  margin-top: 1%;
+  margin-top: 1.5%;
   margin-left: 3%;
  	background: Ivory;
- 	height: 7%;
+ 	height: 6%;
   width: 56%;
  	border-radius: 40px;
  	padding: 1%;
