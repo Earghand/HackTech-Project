@@ -51,10 +51,10 @@ body {
 .maps {
   position:absolute;
   border-radius: 3%;
-  top:100px;
-  left:40px;
-  right:500px;
-  bottom:20px;
+  top:17%;
+  left: 3%;
+  right:39.5%;
+  bottom: 4%;
   background-color:rgba(0, 0, 0, 0.85);
   z-index:9999;
   color:white;
@@ -63,10 +63,10 @@ body {
 .locations {
   position:absolute;
   border-radius: 5%;
-  top:20px;
-  left:825px;
-  right:40px;
-  bottom:20px;
+  top: 5%;
+  left:64%;
+  right: 3%;
+  bottom:4%;
   background-color:rgba(0, 0, 0, 0.85);
   z-index:9999;
   color:white;
