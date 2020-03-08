@@ -16,12 +16,6 @@ GoogleMaps(app, key=api_key)
 def mapview():
     # creating a map in the view
     mymap = Map(
-        identifier="view-side",
-        lat=37.4419,
-        lng=-122.1419,
-        markers=[(37.4419, -122.1419)]
-    )
-    sndmap = Map(
         identifier="sndmap",
         lat=37.4419,
         lng=-122.1419,
@@ -30,7 +24,7 @@ def mapview():
              'icon': 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
              'lat': 37.4419,
              'lng': -122.1419,
-             'infobox': "<b>Hello World</b>"
+             'infobox': "<b>Hello World</b> Elias is a little bitch dawg"
           },
           {
              'icon': 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
@@ -40,7 +34,7 @@ def mapview():
           }
         ]
     )
-    return render_template('template.html', mymap=mymap, sndmap=sndmap)
+    return render_template('template.html', mymap=mymap)
 
 if __name__ == "__main__":
     app.run(debug=True)
