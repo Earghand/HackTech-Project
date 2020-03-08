@@ -12,11 +12,11 @@ body {
 	background: none;
 	outline: none;
 	float: left;
-	padding: 0px;
+	padding: 1%;
 	color: grey;
 	font-size: 150%;
 	transition: 0.4s;
-	line-height: 40px;
+	line-height: 5%;
 	width: 90%;
 	font-weight: bold;
 }
